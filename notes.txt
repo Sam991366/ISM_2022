@@ -1,0 +1,110 @@
+configuration
+1) .xml 
+2) annotation
+3) java 
+
+spring boot - REST API 
+	       
+zero configuration 
+
+application.properties 
+
+----------------------------------------------------
+REST api 
+
+API ->
+
+
+jdbc api
+servlet-api 
+
+
+
+
+server --logic -- backend --- url ---api 
+signup [ fn ln em pwd ] 
+
+amazon.in -> website 
+
+andriod 
+
+ios
+
+microsoft 
+
+
+
+1) json
+2)  create  POST    /product 
+3)  read    GET     /product/1
+4)  update  PUT     /product
+5)  delete  DELETE  /product/1
+
+
+------------------------------------------------
+exp tracker 
+
+signup
+login
+
+
+user can add expense if he/she has atleast 1 account [cash/paytm/cc/dc]
+
+
+create account 
+   cash
+   2000 [1970]
+
+   paytm
+   12000
+
+
+create category 
+  food
+  fuel
+sub category
+     tea
+     lunch
+     activa
+     dzire
+
+add exp
+29-7-2022 - fri- vada - jay bhavani - food - 30 - [cash]     [/paytm/cc/dc]
+
+
+reports
+
+current month 
+    category 
+    subcategory 
+
+
+	chart
+	
+	MultiPartFile file 
+	
+	file.getOriginalName(); =>endswithd -> .jpg .gif .png -> allow 
+	file.getBytes() -> /1024 -> mb -> size validation 
+	
+	jquery -> file upload --> img 
+	
+---------------------------------------------------------
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.6</version>
+		</dependency>
+
+	 
+	@Bean
+	public OpenAPI myapi() {
+		return new OpenAPI().info(
+				new Info().title("22-ism-boot").version("1.0")
+				.description("spring boot demo")
+				.termsOfService("http://google.com/")
+				.license(new License().name("GNPUL").url("http://free.com")));
+			
+---------------------------------------------------------
+	
+	
+	
